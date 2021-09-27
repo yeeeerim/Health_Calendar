@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아이디(email)"
+        android:layout_gravity="left"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/createemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="email"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호(최소 8자 최대 15자)"
+        android:layout_gravity="left"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000"/>
+
+
+
+    <EditText
+        android:id="@+id/createpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="password"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="비밀번호 확인"
+        android:layout_gravity="left"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/passwordcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="passwordcheck"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임(2자이상)"
+        android:layout_gravity="left"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/signupnickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="nickname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="나이"
+        android:layout_gravity="left"
+        android:layout_marginLeft="80dp"
+        android:textColor="#000"/>
+
+
+    <EditText
+        android:id="@+id/signupage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="age" />
+
+    <Button
+        android:id="@+id/createuser"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="완료"/>
+
+    <Button
+        android:id="@+id/backloginbtn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="돌아가기"/>
+
+
+</LinearLayout>

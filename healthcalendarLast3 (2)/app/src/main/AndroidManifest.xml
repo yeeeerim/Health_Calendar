@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.healthcalendar">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <!--
+         <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+        -->
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity
+            android:name=".GraphActivity"
+            android:label="@string/title_activity_graph">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name="com.example.community.LoadingActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"></activity>
+        <activity android:name="com.example.community.EditPostActivity" />
+        <activity android:name=".addOnActivity" />
+        <activity android:name=".findpasswordAcitivity" />
+        <activity android:name=".signupActivity" />
+        <activity android:name=".BPActivity" />
+        <activity android:name=".RoutineActivity" />
+        <activity android:name=".DietActivity" />
+        <activity android:name="com.example.community.ViewPostActivity" />
+        <activity android:name="com.example.community.WritePostActivity" />
+        <activity android:name=".fragment_profile" />
+        <activity android:name=".fragument_calander" />
+        <activity android:name="com.example.community.ViewListActivity" />
+        <activity android:name=".LoginAcivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

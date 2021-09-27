@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F8FF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/movecalendar"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="20dp"
+
+        android:background="@drawable/calendar"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <Button
+        android:id="@+id/movecommunity"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/community"
+        app:layout_constraintEnd_toStartOf="@+id/guideline6"
+        app:layout_constraintTop_toTopOf="@+id/movecalendar" />
+
+    <Button
+        android:id="@+id/moveprofile"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/profile"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/movecommunity" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#00BBD7E4"
+        android:text="Health Calendar"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.11192214" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Calendar"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/movecalendar"
+        app:layout_constraintStart_toEndOf="@+id/movecalendar"
+        app:layout_constraintTop_toTopOf="@+id/movecalendar" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:text="Community"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/movecommunity"
+        app:layout_constraintEnd_toStartOf="@+id/movecommunity"
+        app:layout_constraintTop_toTopOf="@+id/movecommunity" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Profile"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/moveprofile"
+        app:layout_constraintStart_toEndOf="@+id/moveprofile"
+        app:layout_constraintTop_toTopOf="@+id/moveprofile" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

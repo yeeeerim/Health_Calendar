@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "298395360113",
+    "firebase_url": "https://healthcalendar.firebaseio.com",
+    "project_id": "healthcalendar",
+    "storage_bucket": "healthcalendar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:298395360113:android:cd973584af062b1c2234d0",
+        "android_client_info": {
+          "package_name": "com.example.healthcalendar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "298395360113-l1vpuhqhi5mno7pshog7ijrdvaqlqe78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyira67sKq-TufYKuyK6WyQF-09JFFOyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "298395360113-l1vpuhqhi5mno7pshog7ijrdvaqlqe78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
