@@ -21,6 +21,10 @@
 - 카테고리 분류 기능
 - 게시글 새로고침 기능
 
+## 📌 맡은 부분
+- Community UI
+- Community Database
+
 ## 📌 기술
 - Android Studio
 - Java & Kotlin
