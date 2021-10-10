@@ -1,5 +1,5 @@
 # 📆 Health_Calendar
-`Team Proejct` `5 contributors`
+`Team Project` `5 contributors`
 > 운동과 식단 및 칼로리를 기록하면 그래프로 출력해주고, 커뮤니티를 통해 사용자들과 식단 공유, 조언, 운동 그룹 생성 등 다양한 활동을 즐길 수 있는 애플리케이션이다.
 
 ## 📌 배경
