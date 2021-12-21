@@ -30,4 +30,3 @@
 - Java & Kotlin
 - Firebase
 - Github
-- 
